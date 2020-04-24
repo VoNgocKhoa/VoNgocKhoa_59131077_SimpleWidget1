@@ -79,9 +79,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        //Thêm sở thích khác vào Ketqua nếu có
+        //Thêm sở thích khác vào XuatKetqua nếu có
         XuatKetQua += edtSoThich.getText();
         return XuatKetQua;
     }
 
 }
+//Vo Ngoc Khoa
