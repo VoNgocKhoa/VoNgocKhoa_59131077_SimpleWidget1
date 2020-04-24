@@ -19,12 +19,14 @@ public class MainActivity extends AppCompatActivity {
     Button btnXN;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate (savedInstanceState);
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         AddView();
         AddEvent();
     }
+
     private void AddView()
     {
         edtHoTen = findViewById(R.id.edtHoTen);
